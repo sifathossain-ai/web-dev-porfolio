@@ -30,6 +30,10 @@ nav{
     background-position: top left, bottom right;
 }
 
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 /* nav styles */
 
 nav .title{
@@ -84,3 +88,36 @@ nav ul a{
     font-family: open sans;
     font-size: 18px;
 }
+/* Main styles */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+/* About Styles */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.about-title{
+    font-family: open sans;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.about-description{
+    font-family: open sans;
+    margin-bottom: 30px;
+}
+
+.about-info{
+    font-family: open sans;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
