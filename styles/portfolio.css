@@ -42,7 +42,7 @@ nav .title{
 }
 
 .dark-2{
-    color: #474747;
+    color: #757575;
 }
 
 nav ul{
@@ -68,6 +68,10 @@ nav ul a{
     margin: 0px 35px 0 200px;
 }
 
+.banner-description{
+    font-size: 16px;
+}
+
 .banner-content{
     max-width: 580px;
 }
@@ -86,13 +90,16 @@ nav ul a{
 
 .banner-description{
     font-family: open sans;
-    font-size: 18px;
+    font-size: 16px;
+    margin-top: 30px;
 }
+
 /* Main styles */
 main{
     max-width: 1140px;
     margin: 0px auto;
 }
+
 /* About Styles */
 
 .about{
@@ -112,6 +119,7 @@ main{
 .about-description{
     font-family: open sans;
     margin-bottom: 30px;
+    font-size: 16px;
 }
 
 .about-info{
@@ -121,3 +129,48 @@ main{
     
 }
 
+/* Skills Styles */
+
+.skills{
+    margin-top: 130px;
+}
+
+.section-about{
+    text-align: center;
+    font-family: open sans;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.section-description{
+    font-size: 16px;
+}
+
+.skill-about{
+    font-family: open sans;
+    display: flex;
+    justify-content: space-between;
+    gap:24px
+}
+
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skill-div{
+    margin-top: 30px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 7px;
+    margin-bottom: 130px;
+}
+
+.skill-description{
+    font-size: 16px;
+    font-family: open sans;
+}
