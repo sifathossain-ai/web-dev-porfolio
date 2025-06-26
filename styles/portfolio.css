@@ -179,7 +179,7 @@ main{
 
 .resume{
     font-family: open sans;
-    margin-bottom: 130px;
+    margin-bottom: 113px;
 }
 
 .section-title{
@@ -217,4 +217,48 @@ main{
 .experience-description{
     font-size: 16px;
     color: #757575;
+}
+
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Footer styles */
+
+.footer-div{
+    max-width: 1140px;
+    margin: 0px auto;
+    margin-top: 113px;
+}
+
+.footer-section{
+    font-family: open sans;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-container{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.footer-title{
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+.footer-description{
+    font-size: 16px;
+}
+
+.footer-box{
+    margin-bottom: 20px;
+}
+
+.box{
+    padding: 20px;
+    border-radius: 7px;
+    border: none;
+    width: 100%;
 }
