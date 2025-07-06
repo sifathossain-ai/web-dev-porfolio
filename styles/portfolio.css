@@ -100,6 +100,9 @@ nav ul a{
         flex-direction: column;
         margin: 30px;
     }
+    .header{
+        background-image: none;
+    }
 }
 
 /* Main styles */
@@ -197,7 +200,11 @@ main{
 @media screen and (max-width: 576px) {
     .skill-about{
         flex-direction: column;
-    }    
+        padding: 20px;
+    }
+    .section-about{
+        padding: 30px;
+    }
 }
 
 /* Resume Styles */
@@ -253,6 +260,7 @@ main{
 @media screen and (max-width: 576px) {
     .resume-container{
         flex-direction: column;
+        padding: 30px;
     }
 }
 
@@ -302,6 +310,7 @@ main{
 @media screen and (max-width: 576px) {
     .footer-section{
         flex-direction: column;
+        padding: 30px;
     }
     .footer-section div{
          width: 94%;
