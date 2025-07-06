@@ -16,6 +16,7 @@ nav{
     border-radius: 7px;
     font-size: 20px;
     border: none;
+    margin-bottom: 10px;
 }
 
 .text-primary{
@@ -94,6 +95,13 @@ nav ul a{
     margin-top: 30px;
 }
 
+@media screen and (max-width: 576px) {
+    .banner, nav{
+        flex-direction: column;
+        margin: 30px;
+    }
+}
+
 /* Main styles */
 main{
     max-width: 1140px;
@@ -125,8 +133,19 @@ main{
 .about-info{
     font-family: open sans;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
     
+}
+
+@media screen and (max-width: 576px) {
+    .about-info{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .about{
+        padding: 30px;
+    }    
 }
 
 /* Skills Styles */
@@ -167,12 +186,18 @@ main{
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 7px;
-    margin-bottom: 130px;
+    /* margin-bottom: 130px; */
 }
 
 .skill-description{
     font-size: 16px;
     font-family: open sans;
+}
+
+@media screen and (max-width: 576px) {
+    .skill-about{
+        flex-direction: column;
+    }    
 }
 
 /* Resume Styles */
@@ -186,7 +211,8 @@ main{
     text-align: center;
     font-size: 35px;
     font-weight: bold;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
+    margin-top: 130px;
 }
 
 .resume-container{
@@ -224,6 +250,12 @@ main{
     margin-top: 50px;
 }
 
+@media screen and (max-width: 576px) {
+    .resume-container{
+        flex-direction: column;
+    }
+}
+
 /* Footer styles */
 
 .footer-div{
@@ -235,15 +267,15 @@ main{
 .footer-section{
     font-family: open sans;
     display: flex;
-    gap: 100px;
+    gap: 50px;
+    /* margin-top: 100px; */
 }
 
 .footer-container{
     margin-top: 130px;
-    margin-bottom: 130px;
 }
 
-.footer-title{
+.footer-title-1, .footer-title-2{
     font-size: 27px;
     margin-bottom: 30px;
 }
@@ -261,4 +293,24 @@ main{
     border-radius: 7px;
     border: none;
     width: 100%;
+}
+
+.footer-section div{
+    width: 83%;
+}
+
+@media screen and (max-width: 576px) {
+    .footer-section{
+        flex-direction: column;
+    }
+    .footer-section div{
+         width: 94%;
+         padding: 5px;
+    }
+    .footer-container{
+        margin-top: 0px;
+    }
+    .footer-title-1{
+        margin-top: 130px;
+    }
 }
